@@ -63,7 +63,7 @@ services:
       - roboshop
     depends_on:
       - cart
-      - shipping
+      - user
       - rabbitmq
   web:
     image: web:v1
