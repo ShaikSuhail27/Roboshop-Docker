@@ -2,10 +2,10 @@ networks:
   roboshop:
     driver: bridge
 volumes:
-- mongodb:
-- redis:
-- mysql:
-- rabbitmq:
+  mongodb:
+  redis:
+  mysql:
+  rabbitmq:
 services:
   mongodb:
     image: shaiksuhail2767/mongodb:v1
